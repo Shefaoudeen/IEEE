@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+}
+
+.bar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.nav-item {
+  transition: background-color 1s;
+}
+
+.nav-item:hover {
+  background-color: rgb(159, 159, 159);
+}
+
+.nav-item::after {
+  content: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.topic > li {
+  color: white;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+}
