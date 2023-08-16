@@ -1,6 +1,9 @@
-const event = document.querySelector(".event");
-event.addEventListener("click", function () {
-  $(".details").slideToggle();
-});
-
-console.log($(".details").slideUp() == true);
+const pcBar = document.querySelector("#pc-bar");
+const mobBar = document.querySelector("#mobile-nav");
+const size = window.innerWidth;
+let sizeNum = document.querySelector("p");
+sizeNum.innerHTML = innerWidth;
+if (size < 800) {
+  pcBar.classList.toggle("hidden");
+  mobBar.classList.toggle("hidden");
+}
