@@ -33,3 +33,29 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.mobile-text {
+  color: white;
+}
+
+.mob-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.mob-bar>ul, .mob-bar>ul>ul{
+  list-style: none;
+}
+
+.mobile-topic {
+  width: 100%;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
