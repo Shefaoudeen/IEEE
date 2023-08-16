@@ -59,9 +59,4 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.window-size {
-  padding: 100px 150px;
-  border: 1px solid black;
-  box-shadow: 2px 2px 2px gray;
-  border-radius: 50px;
-}
+
